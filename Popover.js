@@ -36,13 +36,6 @@ function Rect(x, y, width, height) {
 }
 
 var Popover = React.createClass({
-    propTypes: {
-        isVisible: PropTypes.bool,
-        onClose: PropTypes.func,
-        title: PropTypes.node,
-        mode: PropTypes.string,
-        layoutDirection: PropTypes.string
-    },
 
     getInitialState() {
         return {
